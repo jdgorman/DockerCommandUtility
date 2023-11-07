@@ -4,6 +4,13 @@ import java.util.StringJoiner;
 public class InputProcessor {
 
 
+    /**
+     * Main method for generating output
+     * @param appName
+     * @param envConfig
+     * @param port
+     * @return
+     */
     public static String generateOutput(String appName, String envConfig, String port){
         String[] contents = parseJson(envConfig);
         return buildRunCommand(appName, contents, port);
