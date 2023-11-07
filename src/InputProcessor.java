@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.StringJoiner;
 
+
+/**
+ * Class for processing user input
+ */
 public class InputProcessor {
 
 

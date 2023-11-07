@@ -1,6 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Class for displaying user interface
+ */
 public class UserInterface extends JFrame {
     public UserInterface() {
         setTitle("Docker Command Generator");
